@@ -8,9 +8,9 @@ from email.mime.text import MIMEText
 
 def send_mail(status):#######
     sender = 'ENSBOT@bracbank.com'
-    receivers = ['nahid.hasan32081@bracbank.com']
-    # receivers = ['nahid.hasan32081@bracbank.com']
-    cc_recipients = ['nahid.hasan32081@bracbank.com']  # Add CC recipients here
+    receivers = ['email']
+    # receivers = ['email']
+    cc_recipients = ['email']  # Add CC recipients here
     subject = 'Election Commission Status'
 
     curr_time = time.strftime("%H:%M:%S", time.localtime())
